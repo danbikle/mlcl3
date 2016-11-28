@@ -34,7 +34,7 @@ To install this app, follow the instructions listed below:
 - The next installation step is to git-clone this app.  If you have git installed the commands listed below should work okay:
 
     cd ~
-    git clone https://github.com/danbikle/mlcl2.git
+    git clone https://github.com/danbikle/mlcl3.git
 
 - If you don't have git installed, I suggest you install it with other useful packages you might need later:
 
@@ -47,7 +47,7 @@ To install this app, follow the instructions listed below:
     libpq-dev emacs wget openssh-server ruby ruby-dev libbz2-dev linux-headers-$(uname -r)
     
 
-- After you clone mlcl2 to ~/mlcl2 , you should consider this app to be installed.
+- After you clone mlcl3 to ~/mlcl3 , you should consider this app to be installed.
 
 - To operate the app just type in one shell command:
 

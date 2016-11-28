@@ -51,6 +51,6 @@ To install this app, follow the instructions listed below:
 
 - To operate the app just type in one shell command:
 
-    ./slice_learn_predict.bash
+    ./slice_learn_predict2.bash
 
 If you have questions, find bugs or offer enhancements, e-me: bikle101@gmail.com

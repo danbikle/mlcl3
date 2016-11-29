@@ -24,9 +24,14 @@ predictions_l = [row for row in predictions_a]
 test_df['predictions']    = predictions_l
 predicted_types_l         = [np.ndarray.argmax(row) for row in predictions_a]
 test_df['predicted_type'] = predicted_types_l
+test_df['accurate'] = test_df.iris_type == test_df.predicted_type
+
+accuracy_f = 100.0*np.sum(test_df.accurate)/len(test_df)
 
 # I should report:
 print(test_df)
+print('percent accuracy:')
+print(accuracy_f)
 
 'bye'
 

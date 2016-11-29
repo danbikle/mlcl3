@@ -14,7 +14,19 @@ import sklearn
 iriss_df = sklearn.utils.shuffle(iris0_df).reset_index()
 # Now I should have an extra column named index (which I dont need)
 
-iris1_df = iriss_df[['f0','f1','f2','f3','iris_type']]
+# I should encode iris_type column as integers: 0,1,2
+
+iris_type_i_l = []
+for type_i in iriss_df.iris_type:
+    if   type_i == 'setosa':
+        iris_type_i_l.append(0)
+    elif type_i == 'versicolor':
+        iris_type_i_l.append(1)
+    else:
+        iris_type_i_l.append(2)
+
+iris1_df = iriss_df.copy()[['f0','f1','f2','f3']]
+iris1_df['iris_type'] = iris_type_i_l
 
 # I should get the training data:
 

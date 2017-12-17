@@ -23,9 +23,9 @@ predictions_l = linr_model.predict(test_a).tolist()
 
 # I should write the predictions to CSV in a way which helps me compare then to observations:
 test_df['prediction'] = predictions_l
-test_df[['f0','f2','f3','iris_type','f1','prediction']].to_csv('/tmp/iris_predicitons.csv', float_format='%4.2f', index=False)
+test_df[['f0','f2','f3','iris_type','f1','prediction']].to_csv('/tmp/iris_predictions.csv', float_format='%4.2f', index=False)
 
-print('Predictions should be here: /tmp/iris_predicitons.csv')
+print('Predictions should be here: /tmp/iris_predictions.csv')
 
 'bye'
 

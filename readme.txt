@@ -25,8 +25,8 @@ To install this app, follow the instructions listed below:
 
 - If Anaconda is not installed, you should install it because this app depends on Anaconda:
 
-    wget https://repo.continuum.io/archive/Anaconda3-4.2.0-Linux-x86_64.sh
-    bash Anaconda3-4.2.0-Linux-x86_64.sh
+    wget https://repo.anaconda.com/archive/Anaconda3-5.3.1-Linux-x86_64.sh
+    bash Anaconda3-5.3.1-Linux-x86_64.sh -b
     mv anaconda3/bin/curl anaconda3/bin/curl_ana
     echo 'export PATH=${HOME}/anaconda3/bin:$PATH' >> ~/.bashrc
     bash

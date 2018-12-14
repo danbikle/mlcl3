@@ -34,7 +34,7 @@ To install this app, follow the instructions listed below:
 - The next installation step is to git-clone this app.  If you have git installed the commands listed below should work okay:
 
     cd ~
-    git clone https://github.com/danbikle/mlcl3.git
+    git clone https://github.com/danbikle/mlcl3
 
 - If you don't have git installed, I suggest you install it with other useful packages you might need later:
 

@@ -1,13 +1,17 @@
-# compare.py
+"""
+compare.py
 
-# This script should compare predicted f1 values from observed f1 values in /tmp/iris_test.csv
+This script should compare predicted f1 values from observed f1 values in /tmp/iris_test.csv
+
+Demo:
+python compare.py
+"""
 
 import pandas as pd
 import numpy  as np
-import pdb
 
 # I should get the data I want to compare:
-predictions_df         = pd.read_csv('/tmp/iris_predictions.csv')
+predictions_df = pd.read_csv('/tmp/iris_predictions.csv')
 
 predictions_df['difference'] = predictions_df.f1 - predictions_df.prediction
 

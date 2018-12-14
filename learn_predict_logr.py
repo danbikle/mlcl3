@@ -1,5 +1,14 @@
-# learn_predict_logr.py
+"""
+learn_predict_logr.py
 
+This script should learn how to classify iris observations from /tmp/iris_train.csv
+This script should use the resulting Logistic Regression model 
+to classify observations in /tmp/iris_test.csv
+This script should report the accuracy of the predictions of observations in /tmp/iris_test.csv
+
+Demo:
+python learn_predict_logr.py
+"""
 import pandas as pd
 import numpy  as np
 

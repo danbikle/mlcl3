@@ -12,5 +12,3 @@ python slice_train_test.py
 python learn_predict_logr.py
 
 exit
-
-

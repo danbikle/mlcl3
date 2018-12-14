@@ -1,10 +1,15 @@
-# learn_predict_linr.py
+"""
+learn_predict_linr.py
+
+This script should learn from /tmp/iris_train.csv
+I should assume that f1 column depends on columns: f0,f2,f3,iris_type
+
+Demo:
+python learn_predict_linr.py
+"""
 
 import pandas as pd
 import numpy  as np
-import pdb
-# This script should learn from /tmp/iris_train.csv
-# I should assume that f1 column depends on columns: f0,f2,f3,iris_type
 
 train_df = pd.read_csv('/tmp/iris_train.csv')
 
